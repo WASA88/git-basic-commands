@@ -6,6 +6,12 @@ git commit -a - m "message"     // shorten command for git add . then git commit
 git log                         // แสดงว่าก่อนหน้านี้ทำอะไรกับ git บ้าง กด q เพื่อออก
 git checkout [hash id]          // rollback กลับไปที่ commit ตามที่ hash id ทีีระบุใน command ดู hash id ของแต่ละ commit ด้วย git log
 git clone [repo/url.git]        // clone remote repo to local
+git pull origin                 // pull all change from remote repo
+git branch                      // list all branch
+git branch [branch-name]        // create new branch
+git checkout [branch-name]      // switch to branch-name
+git checkout -b [branch-name]   // create and switch to branch-name
+
 
 Ways to connect to remote repository
 1. sync local to remote repo using git init and git add origin url/of/repo/to/track.git
