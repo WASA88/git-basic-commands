@@ -1,0 +1,9 @@
+-- commands to use in local repo
+git init                        // initialize git for the path
+git add [file]                  // add file to stage before commit
+git add .                       // add all file
+git commit -m "message"         // commit file to local repo
+git commit -a - m "message"     // shorten command for git add . then git commit แต่จะใช้ไม่ได้กับไฟล์ที่ยังไม่เคย add มาก่อน
+git log                         // แสดงว่าก่อนหน้านี้ทำอะไรกับ git บ้าง กด q เพื่อออก
+git checkout [hash id]          // rollback กลับไปที่ commit ตามที่ hash id ทีีระบุใน command ดู hash id ของแต่ละ commit ด้วย git log
+
